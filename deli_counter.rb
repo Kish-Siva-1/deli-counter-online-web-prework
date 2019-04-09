@@ -15,7 +15,7 @@ def line(katz_deli)
 
 end 
   
-  puts   + arr.join(" ")
+  puts  "The line is currently: " + arr.join(" ")
   
 end 
 
