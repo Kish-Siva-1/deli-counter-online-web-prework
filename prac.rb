@@ -1,4 +1,5 @@
 speaker_no = 0 
+arr=[]
 
 ["Logan", "Avi", "Spencer"].each do |speaker|    
       speaker_no += 1 
