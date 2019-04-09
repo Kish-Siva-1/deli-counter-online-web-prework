@@ -6,3 +6,5 @@ i=0
       speaker_no += 1 
       arr[i] = "#{speaker_no}. #{speaker}"
 end 
+
+puts arr
