@@ -11,11 +11,13 @@ def line(katz_deli)
       speaker_no += 1 
       arr[i] = "#{speaker_no}. #{speaker}"
       i+=1
+    end
+    puts  "The line is currently: " + arr.join(" ")
   end 
 
 end 
   
-  puts  "The line is currently: " + arr.join(" ")
+  
   
 end 
 
