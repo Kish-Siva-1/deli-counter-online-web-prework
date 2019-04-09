@@ -7,15 +7,15 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else 
-    katz_deli.each do |speaker|    
+    ["Logan", "Avi", "Spencer"].each do |speaker|    
       speaker_no += 1 
       arr[i] = "#{speaker_no}. #{speaker}"
-    end 
+      i+=1
   end 
+
+end 
   
-  puts arr
-  #puts katz_deli.join(" ")
-  #"The line is currently: " + katz_deli
+  puts arr.join(" ")
   
 end 
 
