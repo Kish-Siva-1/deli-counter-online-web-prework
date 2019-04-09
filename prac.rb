@@ -8,4 +8,4 @@ i=0
       i+=1
 end 
 
-puts arr
+puts arr.join(" ")
